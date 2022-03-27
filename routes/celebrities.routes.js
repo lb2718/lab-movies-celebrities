@@ -20,4 +20,3 @@ router.post("/celebrities/create", async (req, res, next) => {
 });
 
 module.exports = router;
-("");

@@ -1,0 +1,11 @@
+{{#each foundMovies}}
+  <p><a href="/movies/{{_id}}">{{title}}</a></p>
+  <p>{{genre}}</p>
+  <p>{{plot}}</p>
+  <ul>
+    {{#each cast}}
+      <li>{{this.name}}</li>
+    {{/each}}
+  </ul>
+{{/each}}
+<a href="/movies/create">Click here to add movie</a>
